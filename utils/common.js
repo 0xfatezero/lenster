@@ -14,5 +14,6 @@ function delayFn(delay) {
   
 
 export {
-    getUserProfiles
+    getRandomElement,
+    delayFn
 }
