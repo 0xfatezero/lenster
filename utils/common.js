@@ -4,12 +4,7 @@ function getRandomElement(array) {
   }
   
 function delayFn(delay) {
-    return new Promise(resolve => {
-        const randomDelay = Math.floor(Math.random() * 10) + 1;
-        setTimeout(() => {
-        resolve();
-        }, (delay + randomDelay) * 1000);
-    });
+    return new Promise((resolve) => setTimeout(resolve, delay + Math.floor(Math.random() * 5 ) * 900));
 }
   
 
