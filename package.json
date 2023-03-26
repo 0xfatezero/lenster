@@ -7,7 +7,8 @@
   "scripts": {
     "post": "node ./utils/post.js",
     "like": "node ./utils/like.js",
-    "follow": "node ./utils/follow.js"
+    "follow": "node ./utils/follow.js",
+    "comment": "node ./utils/comment.js"
   },
   "keywords": [],
   "author": "",

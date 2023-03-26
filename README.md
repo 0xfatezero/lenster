@@ -6,6 +6,7 @@
 - 多账号支持
 - 不定时延迟行为（防女巫）
 - 点赞帖子支持多帖子
+- 新增评论帖子， 支持评论多条帖子
 - 动态内容加入自定义随机语料
 
 ## 使用说明
@@ -19,6 +20,7 @@ mv example.env .env  # 将example.env重命名为.env
 npm run follow       # 关注用户
 npm run like         # 点赞帖子
 npm run post         # 发动态
+npm run comment      # 评论帖子
 ```
 
 ## 自定义随机语料使用说明
